@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity implements ObrasFragment.Not
     private void cargarFragment(Fragment fragment) {
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.addToBackStack(null);
+        //fragmentTransaction.addToBackStack(null);
         fragmentTransaction.replace(R.id.fragment_container, fragment).commit();
     }
 

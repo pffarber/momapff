@@ -28,7 +28,6 @@ public class ArtistaDatabaseDAO {
 
 
     public void obtenerDatosArtista(final String id, final ResultListener<Artista> resultListenerDelController) {
-
         DatabaseReference reference = database.getReference().child(ARTISTAS);
         reference.addValueEventListener(new ValueEventListener() {
             @Override
