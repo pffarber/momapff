@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MomaFan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="titulo_obra">Titulo Obra</string>
+    <string name="facebook_id">243013429826417</string>
+    <string name="fb_login_protocol_scheme">fb243013429826417</string>
+    <string name="logout">Logout</string>
+
+</resources>
